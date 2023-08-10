@@ -1,16 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - Tag - JasonChen&#39;s Blog</title>
+        <title>Tags - 标签 - JasonChen&#39;s Blog</title>
         <link>https://JasonChenc.github.io/tags/</link>
-        <description>Tags - Tag - JasonChen&#39;s Blog</description>
+        <description>Tags - 标签 - JasonChen&#39;s Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>miker789@126.com (JasonChen)</managingEditor>
-            <webMaster>miker789@126.com (JasonChen)</webMaster><lastBuildDate>Thu, 03 Aug 2023 17:03:39 &#43;0800</lastBuildDate><atom:link href="https://JasonChenc.github.io/tags/" rel="self" type="application/rss+xml" /><item>
-    <title>test</title>
-    <link>https://JasonChenc.github.io/tags/test/</link>
-    <pubDate>Thu, 03 Aug 2023 17:03:39 &#43;0800</pubDate>
-    <author>JasonChen</author>
-    <guid>https://JasonChenc.github.io/tags/test/</guid>
-    <description><![CDATA[]]></description>
-</item>
-</channel>
+            <webMaster>miker789@126.com (JasonChen)</webMaster><atom:link href="https://JasonChenc.github.io/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
