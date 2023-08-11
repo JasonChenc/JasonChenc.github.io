@@ -4,19 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Hugo博客搭建&amp;LoveIt主题记录 - JasonChen&#39;s Blog</title><meta name="Description" content="JasonChen&#39;s Blog"><meta property="og:title" content="Hugo博客搭建&amp;LoveIt主题记录" />
-<meta property="og:description" content="" />
+        <title>Hugo博客搭建&amp;LoveIt主题记录 - JasonChen&#39;s Blog</title><meta name="Description" content="Hugo博客搭建及问题记录"><meta property="og:title" content="Hugo博客搭建&amp;LoveIt主题记录" />
+<meta property="og:description" content="Hugo博客搭建及问题记录" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://JasonChenc.github.io/hugo_build_record/" /><meta property="article:section" content="posts" />
+<meta property="og:url" content="https://JasonChenc.github.io/hugo_build_record/" /><meta property="og:image" content="https://JasonChenc.github.io/icon.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-08-09T14:14:58+08:00" />
 <meta property="article:modified_time" content="2023-08-10T12:03:25+08:00" /><meta property="og:site_name" content="JasonChen&#39;s Blog" />
-<meta name="twitter:card" content="summary"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://JasonChenc.github.io/icon.png"/>
+
 <meta name="twitter:title" content="Hugo博客搭建&amp;LoveIt主题记录"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="Hugo博客搭建及问题记录"/>
 <meta name="application-name" content="JasonChen&#39;s Blog">
-<meta name="apple-mobile-web-app-title" content="JasonChen&#39;s Blog"><meta name="theme-color" content="#000000"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://JasonChenc.github.io/hugo_build_record/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<meta name="apple-mobile-web-app-title" content="JasonChen&#39;s Blog"><meta name="theme-color" content="#000000"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/icon.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://JasonChenc.github.io/hugo_build_record/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -27,13 +27,13 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/JasonChenc.github.io\/hugo_build_record\/"
-        },"genre": "posts","wordcount":  1224 ,
+        },"genre": "posts","wordcount":  267 ,
         "url": "https:\/\/JasonChenc.github.io\/hugo_build_record\/","datePublished": "2023-08-09T14:14:58+08:00","dateModified": "2023-08-10T12:03:25+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
                 "name": "JasonChen"
-            },"description": ""
+            },"description": "Hugo博客搭建及问题记录"
     }
     </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
@@ -44,7 +44,7 @@
             <a href="/" title="JasonChen&#39;s Blog">JasonChen&#39;s Blog</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/about/"> 关于 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+            <div class="menu-inner"><a class="menu-item" href="/posts/" title="文章"><img src='icon.png' > 文章 </a><a class="menu-item" href="/tags/" title="标签"> 标签 </a><a class="menu-item" href="/categories/" title="分类"> 分类 </a><a class="menu-item" href="/about/" title="关于我"> 关于我 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
                         <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
                         <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
                             <i class="fas fa-search fa-fw" aria-hidden="true"></i>
@@ -86,7 +86,7 @@
                     <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
                         取消
                     </a>
-                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/about/" title="">关于</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                </div><a class="menu-item" href="/posts/" title="文章"><img src='icon.png' >文章</a><a class="menu-item" href="/tags/" title="标签">标签</a><a class="menu-item" href="/categories/" title="分类">分类</a><a class="menu-item" href="/about/" title="关于我">关于我</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
             </a></div>
     </div>
@@ -101,8 +101,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Hugo博客搭建&LoveIt主题记录</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>JasonChen</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-08-09">2023-08-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1224 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;</div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-08-09">2023-08-09</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 267 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 1 分钟&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
                 <div class="details-summary toc-title">
                     <span>目录</span>
@@ -110,416 +110,33 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#contents-organization">1 内容组织</a></li>
-    <li><a href="#front-matter">2 前置参数</a></li>
+    <li><a href="#1前置工作">1前置工作</a>
+      <ul>
+        <li><a href="#11go语言环境安装">1.1Go语言环境安装</a></li>
+        <li><a href="#12hugo安装">1.2Hugo安装</a></li>
+      </ul>
+    </li>
+    <li><a href="#2主题安装配置">2主题安装配置</a></li>
   </ul>
 </nav></div>
-            </div><div class="content" id="content"><h1 id="主题文档---内容">主题文档 - 内容</h1>
-<p>了解如何在 <strong>LoveIt</strong> 主题中快速, 直观地创建和组织内容.</p>
-<!--more-->
-<h2 id="contents-organization">1 内容组织</h2>
-<p>以下是一些方便你清晰管理和生成文章的目录结构建议:</p>
-<ul>
-<li>保持博客文章存放在 <code>content/posts</code> 目录, 例如: <code>content/posts/我的第一篇文章.md</code></li>
-<li>保持简单的静态页面存放在 <code>content</code> 目录, 例如: <code>content/about.md</code></li>
-<li>本地资源组织</li>
-</ul>
-<div class="details admonition note open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>本地资源引用<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p><a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.10" rel="noopener noreffer" target="_blank"><img
-class="lazyload version"
-src="/svg/loading.min.svg"
-data-src="/svg/version/0.2.10-new.min.svg"
-data-srcset="/svg/version/0.2.10-new.min.svg, /svg/version/0.2.10-new.min.svg 1.5x, /svg/version/0.2.10-new.min.svg 2x"
-data-sizes="auto"
-alt="LoveIt 新增 | 0.2.10"
-title="LoveIt 新增 | 0.2.10" /></a></p>
-<p>有三种方法来引用<strong>图片</strong>和<strong>音乐</strong>等本地资源:</p>
-<ol>
-<li>使用<a href="https://gohugo.io/content-management/page-bundles/" target="_blank" rel="noopener noreffer ">页面包</a>中的<a href="https://gohugo.io/content-management/page-resources/" target="_blank" rel="noopener noreffer ">页面资源</a>.
-你可以使用适用于 <code>Resources.GetMatch</code> 的值或者直接使用相对于当前页面目录的文件路径来引用页面资源.</li>
-<li>将本地资源放在 <strong>assets</strong> 目录中, 默认路径是 <code>/assets</code>.
-引用资源的文件路径是相对于 assets 目录的.</li>
-<li>将本地资源放在 <strong>static</strong> 目录中, 默认路径是 <code>/static</code>.
-引用资源的文件路径是相对于 static 目录的.</li>
-</ol>
-<p>引用的<strong>优先级</strong>符合以上的顺序.</p>
-<p>在这个主题中的很多地方可以使用上面的本地资源引用,
-例如 <strong>链接</strong>, <strong>图片</strong>, <code>image</code> shortcode, <code>music</code> shortcode 和<strong>前置参数</strong>中的部分参数.</p>
-<p>页面资源或者 <strong>assets</strong> 目录中的<a href="https://gohugo.io/content-management/image-processing/" target="_blank" rel="noopener noreffer ">图片处理</a>会在未来的版本中得到支持.
-非常酷的功能! <i class="far fa-grin-squint fa-fw" aria-hidden="true"></i></p>
-</div>
-        </div>
-    </div>
-<h2 id="front-matter">2 前置参数</h2>
-<p><strong>Hugo</strong> 允许你在文章内容前面添加 <code>yaml</code>, <code>toml</code> 或者 <code>json</code> 格式的前置参数.</p>
+            </div><div class="content" id="content"><p>记录一下Hugo博客的搭建过程、主题使用及GitHub Pages的部署</p>
+<h2 id="1前置工作">1前置工作</h2>
+<h3 id="11go语言环境安装">1.1Go语言环境安装</h3>
+<p>因为我是MacOs,安装了HomeBrew,直接通过命令<code>brew install go</code>安装并自动配置</p>
+<h3 id="12hugo安装">1.2Hugo安装</h3>
+<p>也是通过命令<code>brew install hugo</code>下载安装
 <div class="details admonition note open">
         <div class="details-summary admonition-title">
             <i class="icon fas fa-pencil-alt fa-fw" aria-hidden="true"></i>注意<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
         </div>
         <div class="details-content">
-            <div class="admonition-content"><strong>不是所有</strong>的以下前置参数都必须在你的每篇文章中设置.
-只有在文章的参数和你的 <a href="../theme-documentation-basics#site-configuration" rel="">网站设置</a> 中的 <code>page</code> 部分不一致时才有必要这么做.</div>
+            <div class="admonition-content">一开始,通过命令发现怎么都安装不上,命令行一直提示如下类似的错误和警告
+<code>Warning: You are using macOS 13. We do not provide support for this pre-release version     Error: go: no bottle available! You can try to install from source with: brew install --build-from-source go</code>
+中途还尝试过手动安装Go和Hugo,发现怎么都配置不起来,
+经过一番摸索,发现只要把HomeBrew的版本更新一下就能通过命令正常下载安装了😂</div>
         </div>
-    </div>
-<p>这是一个前置参数例子:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
-</span><span class="lnt"> 2
-</span><span class="lnt"> 3
-</span><span class="lnt"> 4
-</span><span class="lnt"> 5
-</span><span class="lnt"> 6
-</span><span class="lnt"> 7
-</span><span class="lnt"> 8
-</span><span class="lnt"> 9
-</span><span class="lnt">10
-</span><span class="lnt">11
-</span><span class="lnt">12
-</span><span class="lnt">13
-</span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
-</span><span class="lnt">34
-</span><span class="lnt">35
-</span><span class="lnt">36
-</span><span class="lnt">37
-</span><span class="lnt">38
-</span><span class="lnt">39
-</span><span class="lnt">40
-</span><span class="lnt">41
-</span><span class="lnt">42
-</span><span class="lnt">43
-</span><span class="lnt">44
-</span><span class="lnt">45
-</span><span class="lnt">46
-</span><span class="lnt">47
-</span><span class="lnt">48
-</span><span class="lnt">49
-</span><span class="lnt">50
-</span><span class="lnt">51
-</span><span class="lnt">52
-</span><span class="lnt">53
-</span><span class="lnt">54
-</span><span class="lnt">55
-</span><span class="lnt">56
-</span><span class="lnt">57
-</span><span class="lnt">58
-</span><span class="lnt">59
-</span><span class="lnt">60
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-toml" data-lang="toml"><span class="line"><span class="cl"><span class="nx">---</span>
-</span></span><span class="line"><span class="cl"><span class="nx">title</span><span class="err">:</span> <span class="s2">&#34;我的第一篇文章&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">subtitle</span><span class="err">:</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">date</span><span class="err">:</span> <span class="ld">2020-03-04T15:58:26+08:00</span>
-</span></span><span class="line"><span class="cl"><span class="nx">lastmod</span><span class="err">:</span> <span class="ld">2020-03-04T15:58:26+08:00</span>
-</span></span><span class="line"><span class="cl"><span class="nx">draft</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">author</span><span class="err">:</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">authorLink</span><span class="err">:</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">description</span><span class="err">:</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">license</span><span class="err">:</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">images</span><span class="err">:</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nx">tags</span><span class="err">:</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl"><span class="nx">categories</span><span class="err">:</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nx">featuredImage</span><span class="err">:</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">featuredImagePreview</span><span class="err">:</span> <span class="s2">&#34;&#34;</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nx">hiddenFromHomePage</span><span class="err">:</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl"><span class="nx">hiddenFromSearch</span><span class="err">:</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl"><span class="nx">twemoji</span><span class="err">:</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl"><span class="nx">lightgallery</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">ruby</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">fraction</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">fontawesome</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">linkToMarkdown</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">rssFullText</span><span class="err">:</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"><span class="nx">toc</span><span class="err">:</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">enable</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">auto</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl"><span class="nx">code</span><span class="err">:</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">copy</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">maxShownLines</span><span class="err">:</span> <span class="mi">50</span>
-</span></span><span class="line"><span class="cl"><span class="nx">math</span><span class="err">:</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">enable</span><span class="err">:</span> <span class="kc">false</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># ...</span>
-</span></span><span class="line"><span class="cl"><span class="nx">mapbox</span><span class="err">:</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># ...</span>
-</span></span><span class="line"><span class="cl"><span class="nx">share</span><span class="err">:</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">enable</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># ...</span>
-</span></span><span class="line"><span class="cl"><span class="nx">comment</span><span class="err">:</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">enable</span><span class="err">:</span> <span class="kc">true</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># ...</span>
-</span></span><span class="line"><span class="cl"><span class="nx">library</span><span class="err">:</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">css</span><span class="err">:</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># someCSS = &#34;some.css&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># 位于 &#34;assets/&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># 或者</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># someCSS = &#34;https://cdn.example.com/some.css&#34;</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">js</span><span class="err">:</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># someJS = &#34;some.js&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># 位于 &#34;assets/&#34;</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># 或者</span>
-</span></span><span class="line"><span class="cl">    <span class="c"># someJS = &#34;https://cdn.example.com/some.js&#34;</span>
-</span></span><span class="line"><span class="cl"><span class="nx">seo</span><span class="err">:</span>
-</span></span><span class="line"><span class="cl">  <span class="nx">images</span><span class="err">:</span> <span class="p">[]</span>
-</span></span><span class="line"><span class="cl">  <span class="c"># ...</span>
-</span></span><span class="line"><span class="cl"><span class="nx">---</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div><ul>
-<li>
-<p><strong>title</strong>: 文章标题.</p>
-</li>
-<li>
-<p><strong>subtitle</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.0-new.min.svg"
-         data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.0"
-         title="LoveIt 新增 | 0.2.0" /></a> 文章副标题.</p>
-</li>
-<li>
-<p><strong>date</strong>: 这篇文章创建的日期时间. 它通常是从文章的前置参数中的 <code>date</code> 字段获取的, 但是也可以在 <a href="../theme-documentation-basics#site-configuration" rel="">网站配置</a> 中设置.</p>
-</li>
-<li>
-<p><strong>lastmod</strong>: 上次修改内容的日期时间.</p>
-</li>
-<li>
-<p><strong>draft</strong>: 如果设为 <code>true</code>, 除非 <code>hugo</code> 命令使用了 <code>--buildDrafts</code>/<code>-D</code> 参数, 这篇文章不会被渲染.</p>
-</li>
-<li>
-<p><strong>author</strong>: 文章作者.</p>
-</li>
-<li>
-<p><strong>authorLink</strong>: 文章作者的链接.</p>
-</li>
-<li>
-<p><strong>description</strong>: 文章内容的描述.</p>
-</li>
-<li>
-<p><strong>license</strong>: 这篇文章特殊的许可.</p>
-</li>
-<li>
-<p><strong>images</strong>: 页面图片, 用于 Open Graph 和 Twitter Cards.</p>
-</li>
-<li>
-<p><strong>tags</strong>: 文章的标签.</p>
-</li>
-<li>
-<p><strong>categories</strong>: 文章所属的类别.</p>
-</li>
-<li>
-<p><strong>featuredImage</strong>: 文章的特色图片.</p>
-</li>
-<li>
-<p><strong>featuredImagePreview</strong>: 用在主页预览的文章特色图片.</p>
-</li>
-<li>
-<p><strong>hiddenFromHomePage</strong>: 如果设为 <code>true</code>, 这篇文章将不会显示在主页上.</p>
-</li>
-<li>
-<p><strong>hiddenFromSearch</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.0-new.min.svg"
-         data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.0"
-         title="LoveIt 新增 | 0.2.0" /></a> 如果设为 <code>true</code>, 这篇文章将不会显示在搜索结果中.</p>
-</li>
-<li>
-<p><strong>twemoji</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.0-new.min.svg"
-         data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.0"
-         title="LoveIt 新增 | 0.2.0" /></a> 如果设为 <code>true</code>, 这篇文章会使用 twemoji.</p>
-</li>
-<li>
-<p><strong>lightgallery</strong>: 如果设为 <code>true</code>, 文章中的图片将可以按照画廊形式呈现.</p>
-</li>
-<li>
-<p><strong>ruby</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.0-new.min.svg"
-         data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.0"
-         title="LoveIt 新增 | 0.2.0" /></a> 如果设为 <code>true</code>, 这篇文章会使用 <a href="#ruby" rel="">上标注释扩展语法</a>.</p>
-</li>
-<li>
-<p><strong>fraction</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.0-new.min.svg"
-         data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.0"
-         title="LoveIt 新增 | 0.2.0" /></a> 如果设为 <code>true</code>, 这篇文章会使用 <a href="#fraction" rel="">分数扩展语法</a>.</p>
-</li>
-<li>
-<p><strong>fontawesome</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.0-new.min.svg"
-         data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.0"
-         title="LoveIt 新增 | 0.2.0" /></a> 如果设为 <code>true</code>, 这篇文章会使用 <a href="#fontawesome" rel="">Font Awesome 扩展语法</a>.</p>
-</li>
-<li>
-<p><strong>linkToMarkdown</strong>: 如果设为 <code>true</code>, 内容的页脚将显示指向原始 Markdown 文件的链接.</p>
-</li>
-<li>
-<p><strong>rssFullText</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.4" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.4-new.min.svg"
-         data-srcset="/svg/version/0.2.4-new.min.svg, /svg/version/0.2.4-new.min.svg 1.5x, /svg/version/0.2.4-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.4"
-         title="LoveIt 新增 | 0.2.4" /></a> 如果设为 <code>true</code>, 在 RSS 中将会显示全文内容.</p>
-</li>
-<li>
-<p><strong>toc</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.9" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.9-changed.min.svg"
-         data-srcset="/svg/version/0.2.9-changed.min.svg, /svg/version/0.2.9-changed.min.svg 1.5x, /svg/version/0.2.9-changed.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 更改 | 0.2.9"
-         title="LoveIt 更改 | 0.2.9" /></a> 和 <a href="../theme-documentation-basics#site-configuration" rel="">网站配置</a> 中的 <code>params.page.toc</code> 部分相同.</p>
-</li>
-<li>
-<p><strong>code</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.0-new.min.svg"
-         data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.0"
-         title="LoveIt 新增 | 0.2.0" /></a> 和 <a href="../theme-documentation-basics#site-configuration" rel="">网站配置</a> 中的 <code>params.page.code</code> 部分相同.</p>
-</li>
-<li>
-<p><strong>math</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.0-changed.min.svg"
-         data-srcset="/svg/version/0.2.0-changed.min.svg, /svg/version/0.2.0-changed.min.svg 1.5x, /svg/version/0.2.0-changed.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 更改 | 0.2.0"
-         title="LoveIt 更改 | 0.2.0" /></a> 和 <a href="../theme-documentation-basics#site-configuration" rel="">网站配置</a> 中的 <code>params.page.math</code> 部分相同.</p>
-</li>
-<li>
-<p><strong>mapbox</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.0-new.min.svg"
-         data-srcset="/svg/version/0.2.0-new.min.svg, /svg/version/0.2.0-new.min.svg 1.5x, /svg/version/0.2.0-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.0"
-         title="LoveIt 新增 | 0.2.0" /></a> 和 <a href="../theme-documentation-basics#site-configuration" rel="">网站配置</a> 中的 <code>params.page.mapbox</code> 部分相同.</p>
-</li>
-<li>
-<p><strong>share</strong>: 和 <a href="../theme-documentation-basics#site-configuration" rel="">网站配置</a> 中的 <code>params.page.share</code> 部分相同.</p>
-</li>
-<li>
-<p><strong>comment</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.0" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.0-changed.min.svg"
-         data-srcset="/svg/version/0.2.0-changed.min.svg, /svg/version/0.2.0-changed.min.svg 1.5x, /svg/version/0.2.0-changed.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 更改 | 0.2.0"
-         title="LoveIt 更改 | 0.2.0" /></a> 和 <a href="../theme-documentation-basics#site-configuration" rel="">网站配置</a> 中的 <code>params.page.comment</code> 部分相同.</p>
-</li>
-<li>
-<p><strong>library</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.7" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.7-new.min.svg"
-         data-srcset="/svg/version/0.2.7-new.min.svg, /svg/version/0.2.7-new.min.svg 1.5x, /svg/version/0.2.7-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.7"
-         title="LoveIt 新增 | 0.2.7" /></a> 和 <a href="../theme-documentation-basics#site-configuration" rel="">网站配置</a> 中的 <code>params.page.library</code> 部分相同.</p>
-</li>
-<li>
-<p><strong>seo</strong>: <a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.10" rel="noopener noreffer" target="_blank"><img
-         class="lazyload version"
-         src="/svg/loading.min.svg"
-         data-src="/svg/version/0.2.10-new.min.svg"
-         data-srcset="/svg/version/0.2.10-new.min.svg, /svg/version/0.2.10-new.min.svg 1.5x, /svg/version/0.2.10-new.min.svg 2x"
-         data-sizes="auto"
-         alt="LoveIt 新增 | 0.2.10"
-         title="LoveIt 新增 | 0.2.10" /></a> 和 <a href="../theme-documentation-basics#site-configuration" rel="">网站配置</a> 中的 <code>params.page.seo</code> 部分相同.</p>
-</li>
-</ul>
-<div class="details admonition tip open">
-        <div class="details-summary admonition-title">
-            <i class="icon fas fa-lightbulb fa-fw" aria-hidden="true"></i>技巧<i class="details-icon fas fa-angle-right fa-fw" aria-hidden="true"></i>
-        </div>
-        <div class="details-content">
-            <div class="admonition-content"><p><a href="https://github.com/dillonzq/LoveIt/releases/tag/v0.2.10" rel="noopener noreffer" target="_blank"><img
-class="lazyload version"
-src="/svg/loading.min.svg"
-data-src="/svg/version/0.2.10-new.min.svg"
-data-srcset="/svg/version/0.2.10-new.min.svg, /svg/version/0.2.10-new.min.svg 1.5x, /svg/version/0.2.10-new.min.svg 2x"
-data-sizes="auto"
-alt="LoveIt 新增 | 0.2.10"
-title="LoveIt 新增 | 0.2.10" /></a></p>
-<p><strong>featuredImage</strong> 和 <strong>featuredImagePreview</strong> 支持<a href="#contents-organization" rel="">本地资源引用</a>的完整用法.</p>
-<p>如果带有在前置参数中设置了 <code>name: featured-image</code> 或 <code>name: featured-image-preview</code> 属性的页面资源,
-没有必要在设置 <code>featuredImage</code> 或 <code>featuredImagePreview</code>:</p>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span><span class="lnt">5
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-yaml" data-lang="yaml"><span class="line"><span class="cl"><span class="nt">resources</span><span class="p">:</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">featured-image</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">src</span><span class="p">:</span><span class="w"> </span><span class="l">featured-image.jpg</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">featured-image-preview</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="nt">src</span><span class="p">:</span><span class="w"> </span><span class="l">featured-image-preview.jpg</span><span class="w">
-</span></span></span></code></pre></td></tr></table>
-</div>
-</div></div>
-        </div>
-    </div></div><div class="post-footer" id="post-footer">
+    </div></p>
+<h2 id="2主题安装配置">2主题安装配置</h2></div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -544,7 +161,9 @@ title="LoveIt 新增 | 0.2.10" /></a></p>
 
     <div class="post-nav"></div>
 </div>
-<div id="comments"></div></article></div>
+<div id="comments"><div id="giscus" class="comment"></div><noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://giscus.app">Giscus</a>.
+            </noscript></div></article></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.116.1">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
                 </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2023</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">JasonChen</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
@@ -556,5 +175,5 @@ title="LoveIt 新增 | 0.2.10" /></a></p>
             </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
                 <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
             </a>
-        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+        </div><link rel="stylesheet" href="/lib/lightgallery/css/lightgallery-bundle.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/lightgallery/lightgallery.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/thumbnail/lg-thumbnail.min.js"></script><script type="text/javascript" src="/lib/lightgallery/plugins/zoom/lg-zoom.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{"giscus":{"category":"Announcements","categoryId":"DIC_kwDOKF6xl84CYiJA","darkTheme":"dark","emitMetadata":"0","inputPosition":"top","lang":"zh-CN","lazyLoading":true,"lightTheme":"light_tritanopia","mapping":"pathname","reactionsEnabled":"1","repo":"JasonChenc/blog-discussion","repoId":"R_kgDOKF6xlw"}},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"lightgallery":true,"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
 </html>
